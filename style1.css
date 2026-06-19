@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar1{
+    background-color: black;
+    height: 60px;
+    display:flex;
+    justify-content: space-around;
+    top: 0;
+    position: sticky;
+    z-index: 999;
+    
+    
+}
+
+#navlogo{
+    height: 50px;
+    width: 100px;
+}
+#zero{
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/04/Amazon-Emblem.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+#one{
+    color: #CCCCCC;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12.5px;
+}
+#two select{
+    color: black;
+    background-color: #CCCCCC;
+    height: 38.2px;
+    width:50px;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.addicon{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+    
+}
+#two{
+    display: flex;
+    height: 38.2px;
+    width: 642px;
+    padding: 10px 4px 10px 3px;
+}
+#navsearch{
+    background-color: #FFFFFF;
+    width:547px;
+    height: 38.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#two input{
+    padding: 0;
+ width:210px;
+    height: 35px;
+    border: 0;
+}
+#symbol{
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+
+}
+#flag {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAwg4gBpVnhH0lp-TcwsKSD-CiVwDv4IXR5Q&s");
+    background-size: cover;
+    height: 16.2px;
+    width: 21.2px;
+}
+#english select {
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+}
+#india{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#account select{
+    background-color: black;
+    color: #CCCCCC;
+    border: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#second{
+    background-color: black;
+    color: #D6D6D6;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#third{
+     background-color: black;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#shop{
+    display: flex;
+     padding: 0px 9px 11px 9px;
+     margin: 0px 3px 0 0;
+      margin-top: 10px;
+}
+#cartlogo{
+    background-image: url("https://media.wired.com/photos/59325eba9be5e55af6c246eb/master/pass/amazoncart-feat.jpg");
+    background-size: cover;
+    height: 28px;
+    width: 41px;
+}
+#three{
+    margin-top: 10px;
+}
+#first{
+    padding: 0px 9px 10px;
+    margin-top: 10px;
+}
+#navbar2{
+    background-color: #232F3E;
+    height: 39px;
+    padding: 0px 0px 0px 1px;
+    display: flex;
+    justify-content: space-between;
+}
+#firt{
+    height: 39px;
+    width: 40px;
+    margin: 0;
+    display: flex;
+    padding: 8px 4px 4px 9px;
+    
+    
+}
+#sprite{
+    height: 14px;
+    width: 17px;
+    color: white;
+}
+#all{
+    height: 12px;
+    width: 23px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#secon{
+    height: 28px;
+    width: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#thir{
+    height: 28px;
+    width: 70px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#fourth{
+     height: 28px;
+    width: 32px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#fifth{
+    height: 28px;
+    width: 75px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#sixth{
+    height: 28px;
+    width: 94px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#seventh{
+    height: 28px;
+    width: 58px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#eigth{
+     height: 28px;
+    width: 95px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#ninth{
+     height: 28px;
+    width: 75px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#tenth{
+     height: 28px;
+    width: 120px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#eleventh{
+     height: 28px;
+    width: 110px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#twelfth{
+     height: 28px;
+    width: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#thirteenth{
+     height: 28px;
+    width: 55px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#fourteenth{
+     height: 28px;
+    width: 80px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#fifteenth{
+     height: 28px;
+    width: 70px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#sixteenth{
+    height: 28px;
+    width: 40px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#seventeenth{
+    height: 28px;
+    width: 130px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #232F3E;
+    margin: 8px 0px 6px 0px;
+    padding: 0;
+}
+#img1 img{
+    width: 1515px;
+    height: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#img1{
+    background-color: #e9e2e2c6;
+}
+.box{
+    background-color: white;
+    width: 23%;
+    height: 360px;
+    
+    
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e9e2e2c6;
+    flex-wrap: wrap;
+}
+#card{
+    padding: 20px 0px 15px 0px;
+    background-color: white;
+}
+#deals{
+    padding: 0px 20px 0 20px;
+}
+.images{
+padding: 0px 20px 0 20px;
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
+justify-content: space-evenly;
+
+}
+.img{
+    background-size: contain;
+    width: 130px;
+    height: 98.85px;
+    background-repeat: no-repeat;
+    display: block;
+    background-color: white;
+}
+#imgone{
+    background-image: url("https://m.media-amazon.com/images/I/715k0WQtg9L._AC_SY145_.jpg");
+    
+}
+#img2{
+    background-image: url("https://m.media-amazon.com/images/I/71657TiFeHL._AC_SY145_.jpg");
+    
+}
+#img3{
+    background-image: url("https://m.media-amazon.com/images/I/71ajrL7sHNL._AC_SY145_.jpg");
+}
+#img4{
+    background-image: url("https://m.media-amazon.com/images/I/71FXHAM+jWL._AC_SY145_.jpg");
+}
+#rect{
+    height: 32px;
+    width: 130px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.small{
+    width: 55px;
+    height: 24px;
+    background-color: #CC0C39;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#big{
+    width: 70px;
+    height: 31px;
+    color: #CC0C39;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#im1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px;
+}
+.hi{
+    display: flex;
+    justify-content: space-evenly;
+}
+#see{
+    display: flex;
+    justify-content: center;
+    color: #2162A1;
+}
+#img5{
+    background-image: url("https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_SY145_.jpg");
+}
+#img6{
+    background-image: url("https://m.media-amazon.com/images/I/718HzJbvY1L._AC_SY145_.jpg");
+}
+#img7{
+    background-image: url("https://m.media-amazon.com/images/I/81CQZB2t52L._AC_SY145_.jpg");
+}
+#img8{
+    background-image: url("https://m.media-amazon.com/images/I/81IytpoiMjL._AC_SY145_.jpg");
+}
+#img9{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Events/img25/PC_QC_372x232_Life-Style_6._SY116_CB798594571_.jpg");
+}
+#img10{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Events/img25/PC_QC_372x232_Life-Style_4._SY116_CB798594571_.jpg");
+}
+#img11{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Events/img25/PC_QC_372x232_Life-Style_5._SY116_CB798594571_.jpg");
+}
+#img12{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Events/img25/phase02/PC_QC_186x116_7._SY116_CB798019640_.jpg");
+}
+#samsung{
+    height: 250px;
+    width: 300px;
+    background-image: url("https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/1ba95181-955e-4ad0-b2b4-ddfadf83a055.jpg");
+    background-size: contain;
+}
+#sponsor{
+    color: #555555;
+    font-size: 11px;
+    text-align: right;
+    margin-top: 10px;
+}
+#box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img13{
+    background-image: url("https://m.media-amazon.com/images/I/61ca566nQ0L._AC_SY145_.jpg");
+}
+#img14{
+    background-image: url("https://m.media-amazon.com/images/I/71kmZ1zJYUL._AC_SY145_.jpg");
+}
+#img15{
+    background-image: url("https://m.media-amazon.com/images/I/61OtOTTpzxL._AC_SY145_.jpg");
+}
+#img16{
+    background-image: url("https://m.media-amazon.com/images/I/61YfJEGeqDL._AC_SY145_.jpg");
+}
