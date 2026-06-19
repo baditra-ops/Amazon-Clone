@@ -3,6 +3,9 @@
     font-family: arial;
     border: border-box;
 }
+body{
+    background-color: #e9e2e2c6;
+}
 .navbar1{
     background-color: black;
     height: 60px;
@@ -340,26 +343,31 @@ border-bottom-right-radius: 4px;
     padding: 0;
 }
 #img1 img{
-    width: 1515px;
-    height: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
 }
 #img1{
-    background-color: #e9e2e2c6;
+    max-height:600px;
+    overflow:hidden;
 }
 .box{
     background-color: white;
     width: 23%;
-    height: 360px;
-    
-    
+    height: 420px;
 }
 #container{
     display: flex;
     justify-content: space-evenly;
     background-color: #e9e2e2c6;
     flex-wrap: wrap;
+
+    position: relative;
+    margin-top: -210px;
+    z-index: 2;
+
+    padding-bottom: 30px;
 }
 #card{
     padding: 20px 0px 15px 0px;
@@ -428,8 +436,10 @@ justify-content: space-evenly;
     width: 160px;
 }
 .hi{
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    width:100%;
+    justify-content:space-evenly;
+    margin-bottom:15px;
 }
 #see{
     display: flex;
@@ -489,4 +499,331 @@ justify-content: space-evenly;
 }
 #img16{
     background-image: url("https://m.media-amazon.com/images/I/61YfJEGeqDL._AC_SY145_.jpg");
+}
+
+.caption{
+    font-size:13px;
+    color:#0F1111;
+    margin-top:6px;
+    margin-bottom:12px;
+}
+
+#game1{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg");
+ width:130px;
+    height:98px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#game2{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#game3{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#game4{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg");
+    width:130px;
+    height:98px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#home1{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_furnishings_2._SY116_CB555624324_.jpg");
+   width:130px;
+    height:98px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#home2{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_decor_1._SY116_CB555624324_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#home3{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_storage_1._SY116_CB555624324_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#home4{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/New/1x/final/186x116_Home_lighting_2._SY116_CB555624324_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#fashion1{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Wipes_low_res_V1._SY116_CB549138744_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#fashion2{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Shower_heads_low_res_V1._SY116_CB549138744_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#fashion3{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Tools_low_res_V1._SY116_CB549138744_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+#fashion4{
+    background-image:url("https://images-eu.ssl-images-amazon.com/images/G/31/img18/HomeImprovement/harsmisc/2025/March/Wallpapers_low_res_V1._SY116_CB549138744_.jpg");
+    height:98px;
+    width:130px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+
+.slider-section{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.slider-header{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-bottom:15px;
+}
+
+.slider-header h2{
+    font-size:21px;
+    font-weight:700;
+}
+
+.slider-header a{
+    text-decoration:none;
+    color:#2162A1;
+}
+
+.slider-container{
+    position:relative;
+}
+
+.slider-track{
+    display:flex;
+    overflow-x:auto;
+    gap:20px;
+    scroll-behavior:smooth;
+}
+
+.slider-track::-webkit-scrollbar{
+    height:8px;
+}
+
+.slide-img{
+    min-width:180px;
+    height:220px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+#slide1{background-image:url("https://m.media-amazon.com/images/I/61LnPbT7KML._AC_SY200_.jpg");}
+#slide2{background-image:url("https://m.media-amazon.com/images/I/61cZNKJdJ4L._AC_SY200_.jpg");}
+#slide3{background-image:url("https://m.media-amazon.com/images/I/81cDCEmyfiL._AC_SY200_.jpg");}
+#slide4{background-image:url("https://m.media-amazon.com/images/I/51Rry3vQgJL._AC_SY200_.jpg");}
+#slide5{background-image:url("https://m.media-amazon.com/images/I/61+SW9nDTEL._AC_SY170_.jpg");}
+#slide6{background-image:url("https://m.media-amazon.com/images/I/41bTgOWMezL._AC_SY200_.jpg");}
+#slide7{background-image:url("https://m.media-amazon.com/images/I/81ePr6VxtEL._AC_SY200_.jpg");}
+#slide8{background-image:url("https://m.media-amazon.com/images/I/713Cra0h-dL._AC_SY200_.jpg");}
+#slide9{background-image:url("https://m.media-amazon.com/images/I/51xdyyWJ9vL._AC_SY200_.jpg");}
+#slide10{background-image:url("https://m.media-amazon.com/images/I/41A3xRkrPEL._AC_SY200_.jpg");}
+#slide11{background-image:url("https://m.media-amazon.com/images/I/51+Nuzgns7L._AC_SY200_.jpg");}
+#slide12{background-image:url("https://m.media-amazon.com/images/I/61XJ9ut-X0L._AC_SY200_.jpg");}
+#slide13{background-image:url("https://m.media-amazon.com/images/I/61vEW+38c9L._AC_SY200_.jpg");}
+#slide14{background-image:url("https://m.media-amazon.com/images/I/71d4DCEdT3L._AC_SY200_.jpg");}
+
+
+.slider-btn{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:55px;
+    height:100px;
+    border:none;
+    background:white;
+    cursor:pointer;
+    font-size:40px;
+    z-index:5;
+    box-shadow:0 2px 8px rgba(0,0,0,0.25);
+}
+
+.slider-btn:hover{
+    background:#f5f5f5;
+}
+
+.left{
+    left:0;
+}
+
+.right{
+    right:0;
+}
+
+
+#small1{background-image:url("https://m.media-amazon.com/images/I/61mOQ0bINUL._AC_SY200_.jpg");}
+#small2{background-image:url("https://m.media-amazon.com/images/I/71lOa2ZUnXL._AC_SY200_.jpg");}
+#small3{background-image:url("https://m.media-amazon.com/images/I/513dNHv7MnL._AC_SY200_.jpg");}
+#small4{background-image:url("https://m.media-amazon.com/images/I/61BIdITmLoL._AC_SY200_.jpg");}
+#small5{background-image:url("https://m.media-amazon.com/images/I/71FVxFgg3ZL._AC_SY200_.jpg");}
+#small6{background-image:url("https://m.media-amazon.com/images/I/51vhu0qDJqL._AC_SY200_.jpg");}
+#small7{background-image:url("https://m.media-amazon.com/images/I/612KtkgKsXL._AC_SY200_.jpg");}
+#small8{background-image:url("https://m.media-amazon.com/images/I/61vPQZATOAL._AC_SY200_.jpg");}
+#small9{background-image:url("https://m.media-amazon.com/images/I/71yaMG+ZIcL._AC_SY200_.jpg");}
+#small10{background-image:url("https://m.media-amazon.com/images/I/71ywCPHKRvL._AC_SY200_.jpg");}
+#small11{background-image:url("https://m.media-amazon.com/images/I/819aMAtITvL._AC_SY200_.jpg");}
+#small12{background-image:url("https://m.media-amazon.com/images/I/61KWruDGnbL._AC_SY200_.jpg");}
+#small13{background-image:url("https://m.media-amazon.com/images/I/714uOfnI14L._AC_SY200_.jpg");}
+#small14{background-image:url("https://m.media-amazon.com/images/I/6197mMMY1kL._AC_SY200_.jpg");}
+
+@media(max-width:1200px){
+
+    #container{
+        grid-template-columns: repeat(2,1fr);
+        gap:20px;
+    }
+
+    .box{
+        width:100%;
+    }
+
+    #navbar2{
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+    #navbar2::-webkit-scrollbar{
+        display:none;
+    }
+
+    .slider-track{
+        gap:10px;
+    }
+
+    .slide-img{
+        min-width:180px;
+    }
+}
+@media(max-width:768px){
+
+    .navbar1{
+        flex-wrap:wrap;
+        height:auto;
+        padding:10px;
+    }
+
+    #one,
+    #india,
+    #three,
+    #first,
+    #shop{
+        display:none;
+    }
+
+    #two{
+        width:100%;
+        margin-top:10px;
+    }
+
+    #navsearch input{
+        width:100%;
+    }
+
+    #container{
+        grid-template-columns:1fr;
+    }
+
+    #img1 img{
+        height:250px;
+        object-fit:cover;
+    }
+
+    .slider-header h2{
+        font-size:22px;
+    }
+}
+@media(max-width:480px){
+
+    #navlogo{
+        transform:scale(.8);
+    }
+
+    .box{
+        padding:10px;
+    }
+
+    .images{
+        gap:10px;
+    }
+
+    .img{
+        width:120px;
+        height:120px;
+    }
+
+    .slide-img{
+        min-width:140px;
+        height:140px;
+    }
+
+    .slider-btn{
+        width:40px;
+        height:60px;
+        font-size:25px;
+    }
+
+    .slider-header{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:10px;
+    }
+
+    .slider-header h2{
+        font-size:18px;
+    }
 }
