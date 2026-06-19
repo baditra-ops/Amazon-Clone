@@ -289,12 +289,12 @@
             <div class="hi">
 
                 <div id="im1">
-                    <div class="img" id="home1"></div>
+                    <div class="img" id="homes1"></div>
                     <p class="caption">Cushions</p>
                 </div>
 
                 <div id="im1">
-                    <div class="img" id="home2"></div>
+                    <div class="img" id="homes2"></div>
                     <p class="caption">Figurines</p>
                 </div>
 
@@ -303,12 +303,12 @@
             <div class="hi">
 
                 <div id="im1">
-                    <div class="img" id="home3"></div>
+                    <div class="img" id="homes3"></div>
                     <p class="caption">Home Storage</p>
                 </div>
 
                 <div id="im1">
-                    <div class="img" id="home4"></div>
+                    <div class="img" id="homes4"></div>
                     <p class="caption">Lighting Solutions</p>
                 </div>
 
@@ -477,21 +477,357 @@ smallRight.addEventListener("click", () => {
 
 </script>
 
+<div class="slider-section">
+
+    <div class="slider-header">
+        <h2>Up to 60% off | Cookware, kitchen tool & more | Amazon Launchpad</h2>
+        <a href="#">See all</a>
+    </div>
+
+    <div class="slider-container">
+
+        <button class="slider-btn left launchpad-left">
+            &#10094;
+        </button>
+
+        <div class="slider-track" id="launchpad-track">
+
+            <div id="launch1" class="slide-img"></div>
+            <div id="launch2" class="slide-img"></div>
+            <div id="launch3" class="slide-img"></div>
+            <div id="launch4" class="slide-img"></div>
+            <div id="launch5" class="slide-img"></div>
+            <div id="launch6" class="slide-img"></div>
+            <div id="launch7" class="slide-img"></div>
+            <div id="launch8" class="slide-img"></div>
+            <div id="launch9" class="slide-img"></div>
+            <div id="launch10" class="slide-img"></div>
+            <div id="launch11" class="slide-img"></div>
+            <div id="launch12" class="slide-img"></div>
+
+        </div>
+
+        <button class="slider-btn right launchpad-right">
+            &#10095;
+        </button>
+
+    </div>
+
+</div>
+
+<div class="slider-section">
+
+    <div class="slider-header">
+        <h2>Min. 30% off | Upgrade your home with products from Small Businesses</h2>
+        <a href="#">See more</a>
+    </div>
+
+    <div class="slider-container">
+
+        <button class="slider-btn left home-left">
+            &#10094;
+        </button>
+
+        <div class="slider-track" id="home-track">
+
+            <div id="home1" class="slide-img"></div>
+            <div id="home2" class="slide-img"></div>
+            <div id="home3" class="slide-img"></div>
+            <div id="home4" class="slide-img"></div>
+            <div id="home5" class="slide-img"></div>
+            <div id="home6" class="slide-img"></div>
+            <div id="home7" class="slide-img"></div>
+            <div id="home8" class="slide-img"></div>
+            <div id="home9" class="slide-img"></div>
+            <div id="home10" class="slide-img"></div>
+            <div id="home11" class="slide-img"></div>
+            <div id="home12" class="slide-img"></div>
+
+        </div>
+
+        <button class="slider-btn right home-right">
+            &#10095;
+        </button>
+
+    </div>
+
+</div>
+<script>
+const launchpadTrack =
+document.getElementById("launchpad-track");
+
+const homeTrack =
+document.getElementById("home-track");
+
+
+document.querySelector(".launchpad-left")
+.addEventListener("click", () => {
+    launchpadTrack.scrollLeft = 0;
+});
+
+document.querySelector(".launchpad-right")
+.addEventListener("click", () => {
+    launchpadTrack.scrollLeft =
+    launchpadTrack.scrollWidth;
+});
+
+
+document.querySelector(".home-left")
+.addEventListener("click", () => {
+    homeTrack.scrollLeft = 0;
+});
+
+document.querySelector(".home-right")
+.addEventListener("click", () => {
+    homeTrack.scrollLeft =
+    homeTrack.scrollWidth;
+});
+</script>
 
 
 
+<div class="feature-row">
+
+    <!-- Card 1 -->
+
+    <div class="feature-card">
+
+        <h2>Customers' Most-Loved Fashion for you</h2>
+
+        <div class="feature-grid">
+
+            <div id="love1" class="feature-img"></div>
+            <div id="love2" class="feature-img"></div>
+            <div id="love3" class="feature-img"></div>
+            <div id="love4" class="feature-img"></div>
+
+        </div>
+
+        <a class="more" href="#">Explore more</a>
+
+    </div>
 
 
+    <!-- Card 2 -->
+
+    <div class="feature-card">
+
+        <h2>
+            Up to 60% off | Best offers on kitchen products
+        </h2>
+
+        <div class="mini-slider">
+
+            <button class="mini-left kitchen-left">
+                &#10094;
+            </button>
+
+            <div class="mini-track" id="kitchen-track">
+
+                <div id="kitchen1" class="mini-slide"></div>
+                <div id="kitchen2" class="mini-slide"></div>
+                <div id="kitchen3" class="mini-slide"></div>
+                <div id="kitchen4" class="mini-slide"></div>
+                <div id="kitchen5" class="mini-slide"></div>
+                <div id="kitchen6" class="mini-slide"></div>
+
+            </div>
+
+            <button class="mini-right kitchen-right">
+                &#10095;
+            </button>
+
+        </div>
+
+        <div class="product-text">
+            Aquaminder Smart Water Bottle...
+        </div>
+
+        <div class="product-price">
+            ₹998
+        </div>
+
+    </div>
 
 
+    <!-- Card 3 -->
+
+    <div class="feature-card">
+
+        <h2>Best Sellers in Beauty</h2>
+
+        <div class="feature-grid">
+
+            <div id="beauty1" class="feature-img"></div>
+            <div id="beauty2" class="feature-img"></div>
+            <div id="beauty3" class="feature-img"></div>
+            <div id="beauty4" class="feature-img"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Card 4 -->
+
+    <div class="feature-card">
+
+        <h2>
+            Starting ₹999 | Kitchen must-haves
+        </h2>
+
+        <div class="mini-slider">
+
+            <button class="mini-left must-left">
+                &#10094;
+            </button>
+
+            <div class="mini-track" id="must-track">
+
+                <div id="must1" class="mini-slide"></div>
+                <div id="must2" class="mini-slide"></div>
+                <div id="must3" class="mini-slide"></div>
+                <div id="must4" class="mini-slide"></div>
+                <div id="must5" class="mini-slide"></div>
+                <div id="must6" class="mini-slide"></div>
+
+            </div>
+
+            <button class="mini-right must-right">
+                &#10095;
+            </button>
+
+        </div>
+
+        <div class="product-text">
+            Leak Proof Stainless Steel...
+        </div>
+
+        <div class="product-price">
+            ₹499
+        </div>
+
+    </div>
+
+</div>
+<script>
+const kitchenTrack =
+document.getElementById("kitchen-track");
+
+const mustTrack =
+document.getElementById("must-track");
+
+
+document.querySelector(".kitchen-left")
+.addEventListener("click", () => {
+    kitchenTrack.scrollLeft -=
+    kitchenTrack.clientWidth;
+});
+
+document.querySelector(".kitchen-right")
+.addEventListener("click", () => {
+    kitchenTrack.scrollLeft +=
+    kitchenTrack.clientWidth;
+});
+
+
+document.querySelector(".must-left")
+.addEventListener("click", () => {
+    mustTrack.scrollLeft -=
+    mustTrack.clientWidth;
+});
+
+document.querySelector(".must-right")
+.addEventListener("click", () => {
+    mustTrack.scrollLeft +=
+    mustTrack.clientWidth;
+});
          
             
-
+</script>
 
 
            
-          
+<!-- Back to Top -->
+<div class="back-to-top">
+    Back to top
+</div>
 
+<!-- Main Footer -->
+<footer class="footer">
+
+    <div class="footer-links">
+
+        <div class="footer-column">
+            <h3>Get to Know Us</h3>
+            <a href="#">About Amazon</a>
+            <a href="#">Careers</a>
+            <a href="#">Press Releases</a>
+            <a href="#">Amazon Science</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Connect with Us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Make Money with Us</h3>
+            <a href="#">Sell on Amazon</a>
+            <a href="#">Become an Affiliate</a>
+            <a href="#">Advertise Your Products</a>
+            <a href="#">Amazon Pay</a>
+        </div>
+
+        <div class="footer-column">
+            <h3>Let Us Help You</h3>
+            <a href="#">Your Account</a>
+            <a href="#">Returns Centre</a>
+            <a href="#">Help</a>
+        </div>
+
+    </div>
+
+    <div class="footer-logo-section">
+
+        <div class="footer-logo"></div>
+
+        <button class="footer-btn">
+            🌐 English
+        </button>
+
+        <button class="footer-btn">
+            🇮🇳 India
+        </button>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <div class="footer-bottom-links">
+            <a href="#">Conditions of Use</a>
+            <a href="#">Privacy Notice</a>
+            <a href="#">Interest-Based Ads</a>
+        </div>
+
+        <p>
+            © 1996-2026, Amazon.com Clone, Inc.
+        </p>
+
+    </div>
+
+</footer>
+<script>
+  document.querySelector(".back-to-top")
+.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
           
          
     </body>
